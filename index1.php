@@ -24,38 +24,47 @@
 			<button class="close-btn" onclick="toggleSidebar()">×</button>
 			<a href="#">Home</a>
 			<hr class="divider">
-			<a href="#">About</a>
+			<a href="feedbackform.php">Feedback</a>
 			<hr class="divider">
-			<a href="#">Education</a>
+			<a href="about1.php">About</a>
 			<hr class="divider">
-			<a href="#">Feedback</a>
+			<a href="reference.php">Reference</a>
 			<hr class="divider">
-			<a href="#">Support</a>
-			<hr class="divider">
-			<a href="#">Reference</a>
-			<hr class="divider">
-			<a href="#">Contact Us</a>
+			<a href="developer.php">Contact Us</a>
 		</div>
         <div class="a" style="text-align: center; margin: 20px;">
-    <p style="font-size: 32px; font-weight: bold; color: #4CAF50;">AGRI--CURE</p>
-    <ul style="list-style-type: none; padding: 0;">
+    <p style="font-size: 32px; font-weight: bold; color: #4CAF50;">AGRICURE</p>
+    
         <li id="nav3" onclick="showPopup()" style="display: inline-block; margin: 0 15px; padding: 10px 20px; color: white; cursor: pointer; transition: background-color 0.3s ease, transform 0.3s ease;">HOME</li>
         <li id="nav3" onclick="showPopup()" style="display: inline-block; margin: 0 15px; padding: 10px 20px; color: white; cursor: pointer; transition: background-color 0.3s ease, transform 0.3s ease;">SERVICES</li>
         <li id="nav3" onclick="showPopup()" style="display: inline-block; margin: 0 15px; padding: 10px 20px; color: white; cursor: pointer; transition: background-color 0.3s ease, transform 0.3s ease;">ABOUT US</li>
-        <li id="nav3" onclick="showPopup()" style="display: inline-block; margin: 0 15px; padding: 10px 20px; color: white; cursor: pointer; transition: background-color 0.3s ease, transform 0.3s ease;">PRODUCTS</li>
+        <li><a class="nav-link" href="#" role="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="bi bi-globe" style="font-size: 1.5rem; cursor: pointer;" title="Select Language"></i>
+        </a>         
+        <!-- Language Dropdown Menu -->
+           <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+            <li><a class="dropdown-item" href="index1.php">English</a></li>
+            <li><a class="dropdown-item" href="hindiindex1.php">Hindi</a></li>
+                        </ul>
+        </li>
         <li style="display: inline-block; margin: 0 15px; padding: 10px 20px;"><a href="login.php" style="color: white; text-decoration: none; background-color: #686854; border-radius: 50px; padding: 10px 20px;">Login/Signup</a></li>
-    </ul>
+</ul>
 
     <!-- Popup Overlay -->
 <!-- Popup Overlay -->
 <div id="popupOverlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7); z-index: 1000;">
-    <div id="popupWindow" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(0.7); background-image: linear-gradient(45deg, #4CAF50, #3F51B5); padding: 20px; width: 320px; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); text-align: center; opacity: 0; transition: transform 0.5s ease, opacity 0.5s ease;">
-        <h2 style="color: white; font-family: Arial, sans-serif;">
-        <i class="bi bi-info-circle-fill" style="color: #ff5722;"></i><br>Please Login First</h2>
-        <p style="color: #fff; margin-bottom: 20px;">You need to log in to access this section.</p>
-        <button id="closeBtn" onclick="closePopup()" style="background-color: #ff5722; color: white; border: none; padding: 10px 20px; border-radius: 50px; cursor: pointer; margin-top: 15px; transition: background-color 0.3s ease;">OK</button>
+    <div id="popupWindow" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(0.8); background-image: linear-gradient(135deg, #85e3ff, #ffb8d7); padding: 20px; width: 320px; border-radius: 20px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); text-align: center; opacity: 0; transition: transform 0.5s ease, opacity 0.5s ease;">
+        <h2 style="color: #2c3e50; font-family: Arial, sans-serif; margin-bottom: 15px;">
+            <i class="bi bi-info-circle-fill" style="color: #e74c3c;"></i><br>Please Login First
+        </h2>
+        <p style="color: #34495e; margin-bottom: 20px;">You need to log in to access this section.</p>
+        <button id="closeBtn" onclick="closePopup()" style="background: linear-gradient(to right, #ff6f61, #d5006d); color: white; border: none; padding: 12px 25px; border-radius: 50px; cursor: pointer; margin-top: 15px; transition: background 0.3s ease, transform 0.2s ease; font-weight: bold;">
+            OK
+        </button>
     </div>
 </div>
+
+
 
 
     <script>
@@ -118,9 +127,10 @@
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="card">
                                 <img src="images/about9.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h4 class="card-title">Research</h4>
+                                <a href="research.php"><div class="card-body">
+                                <h4 class="card-title">Research</h4>
                                     <p class="card-text">Agriculture plays a vital role in food production, economic growth, and environmental sustainability through innovative practices.</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -128,9 +138,10 @@
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="card">
                                 <img src="images/about11.png" class="card-img-top" alt="...">
-                                <div class="card-body">
+                                <a href="branding.php"><div class="card-body">
                                     <h4 class="card-title">Branding</h4>
                                     <p class="card-text">Effective branding in agriculture enhances product recognition, builds consumer trust, and fosters a loyal customer base.</p>
+                                </a>
                                 </div>
                             </div>
                         </div>
@@ -139,15 +150,6 @@
 
                     <div class="row row2">
 
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="card">
-                                <img src="images/about8.avif" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <h4 class="card-title">UI/UX Design</h4>
-                                    <p class="card-text">Effective UX/UI design in agriculture enhances user engagement, streamlines processes, and improves accessibility to vital resources for farmers and consumers alike.</p>
-                                </div>
-                            </div>
-                        </div>
 
                         <div class="col-lg-6 col-md-6 col-sm-12">
                             <div class="card">
@@ -226,7 +228,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-12 col-sm-12">
                     <p class="logo" style="font-size: 28px; font-weight: bold; margin: 0; animation: fadeIn 1s;color: #4CAF50;">
-                     AGRI--CURE
+                    AGRICURE
                     </p>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
@@ -246,7 +248,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-12 col-sm-12">
-                    <p style="text-align: center; margin: 0; animation: fadeIn 1s;">&copy; 2024 AGRI--CURE</p>
+                    <p style="text-align: center; margin: 0; animation: fadeIn 1s;">&copy; 2024 AGRICURE</p>
                 </div>
                 <div class="col-lg-1 col-md-12 col-sm-12">
                     <a href="#" class="back-to-top d-flex align-items-center justify-content-center" style="color: #ecf0f1; font-size: 24px; transition: transform 0.3s;">

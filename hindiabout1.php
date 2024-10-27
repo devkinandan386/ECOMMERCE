@@ -421,161 +421,161 @@
 </head>
 <body>
 
-    <!-- Navbar -->
-    <header class="navbar-section">
-        <nav class="navbar navbar-expand-lg container">
-            <a class="navbar-brand" href="#">
-                <p>AGRICURE</p>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="web.php">Products</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero" id="home" data-aos="fade-up">
-        <div class="hero-content">
-            <h1 data-aos="zoom-in">Welcome to AGRICURE</h1>
-            <p data-aos="fade-up" data-aos-delay="200">Empowering Farmers with Sustainable Solutions</p>
-            <a href="#about" class="btn btn-primary" data-aos="fade-up" data-aos-delay="400">Learn More</a>
+<!-- नेवबार -->
+<header class="navbar-section">
+    <nav class="navbar navbar-expand-lg container">
+        <a class="navbar-brand" href="#">
+            <p>AGRICURE</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="नेविगेशन टॉगल करें">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#home">होम</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">हमारे बारे में</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">सेवाएँ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="web.php">उत्पाद</a>
+                </li>
+            </ul>
         </div>
-    </section>
+    </nav>
+</header>
 
-    <!-- About Us Section -->
-    <section class="about-us" id="about">
-        <div class="uv" data-aos="fade-right">
-            <h1>Our Vision, Mission & Values</h1>
-            <h3>Our Vision</h3>
-            <p>Improved rural livelihoods and sustainable food systems in the Global South.</p>
-            <h3>Our Mission</h3>
-            <p>To promote agroecological principles and rural entrepreneurship through capacity development and South-South exchange of quality farmer-to-farmer training videos in local languages.</p>
-            <h3>Our Values</h3>
-            <p>Respect for local knowledge and innovations. Value for the environment and ecosystems. Professional, effective, and informed by science. Creative, flexible, and sensitive to gender equality.</p>
-            <a href="video.php" class="btn">Explore Now</a>
-        </div>
-        <div class="abouti" data-aos="fade-left">
-		<img src="images/aboutimg.webp"
-                        style="width: 550px; max-width: 550px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: transform 0.3s ease, box-shadow 0.3s ease;" alt="About Us Image"
-                        onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 6px 12px rgba(0,0,0,0.3)';"
-                        onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)';">
-                </div>
-        </div>
-    </section>
+<!-- नायक अनुभाग -->
+<section class="hero" id="home" data-aos="fade-up">
+    <div class="hero-content">
+        <h1 data-aos="zoom-in">AGRICURE में आपका स्वागत है</h1>
+        <p data-aos="fade-up" data-aos-delay="200">कृषकों को स्थायी समाधान प्रदान करना</p>
+        <a href="#about" class="btn btn-primary" data-aos="fade-up" data-aos-delay="400">अधिक जानें</a>
+    </div>
+</section>
 
-    <!-- Services Section -->
-    <section class="services" id="services">
-        <h2 data-aos="fade-up">Our Services</h2>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 service-item" data-aos="fade-up" data-aos-delay="100">
-                    <i class="bi bi-gear-fill"></i>
-                    <h4>Agroecological Training</h4>
-                    <p>Providing comprehensive training programs to promote sustainable farming practices.</p>
-                </div>
-                <div class="col-md-4 service-item" data-aos="fade-up" data-aos-delay="200">
-                    <i class="bi bi-people-fill"></i>
-                    <h4>Farmer Networking</h4>
-                    <p>Connecting farmers across regions for knowledge sharing and collaboration.</p>
-                </div>
-                <div class="col-md-4 service-item" data-aos="fade-up" data-aos-delay="300">
-                    <i class="bi bi-globe2"></i>
-                    <h4>Global Market Access</h4>
-                    <p>Helping farmers access global markets to expand their business opportunities.</p>
-                </div>
+<!-- हमारे बारे में अनुभाग -->
+<section class="about-us" id="about">
+    <div class="uv" data-aos="fade-right">
+        <h1>हमारा दृष्टिकोण, मिशन और मूल्य</h1>
+        <h3>हमारा दृष्टिकोण</h3>
+        <p>वैश्विक दक्षिण में ग्रामीण जीवन की गुणवत्ता में सुधार और स्थायी खाद्य प्रणालियाँ।</p>
+        <h3>हमारा मिशन</h3>
+        <p>स्थायी विकास के लिए कृषि-पर्यावरणीय सिद्धांतों और ग्रामीण उद्यमिता को बढ़ावा देना। स्थानीय भाषाओं में कृषक से कृषक प्रशिक्षण वीडियो के माध्यम से क्षमता विकास और दक्षिण-दक्षिण आदान-प्रदान।</p>
+        <h3>हमारे मूल्य</h3>
+        <p>स्थानीय ज्ञान और नवाचारों का सम्मान। पर्यावरण और पारिस्थितिकी तंत्र के प्रति मूल्य। पेशेवर, प्रभावी और विज्ञान द्वारा सूचित। रचनात्मक, लचीला और लिंग समानता के प्रति संवेदनशील।</p>
+        <a href="hindivedio.php" class="btn">अभी अन्वेषण करें</a>
+    </div>
+    <div class="abouti" data-aos="fade-left">
+        <img src="images/aboutimg.webp"
+            style="width: 550px; max-width: 550px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: transform 0.3s ease, box-shadow 0.3s ease;" alt="हमारे बारे में छवि"
+            onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 6px 12px rgba(0,0,0,0.3)';"
+            onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.2)';">
+    </div>
+    </div>
+</section>
+
+<!-- सेवाएँ अनुभाग -->
+<section class="services" id="services">
+    <h2 data-aos="fade-up">हमारी सेवाएँ</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 service-item" data-aos="fade-up" data-aos-delay="100">
+                <i class="bi bi-gear-fill"></i>
+                <h4>कृषि-पर्यावरणीय प्रशिक्षण</h4>
+                <p>स्थायी कृषि प्रथाओं को बढ़ावा देने के लिए व्यापक प्रशिक्षण कार्यक्रम प्रदान करना।</p>
+            </div>
+            <div class="col-md-4 service-item" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-people-fill"></i>
+                <h4>कृषक नेटवर्किंग</h4>
+                <p>ज्ञान साझा करने और सहयोग के लिए क्षेत्रों में कृषकों को जोड़ना।</p>
+            </div>
+            <div class="col-md-4 service-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-globe2"></i>
+                <h4>वैश्विक बाजार पहुंच</h4>
+                <p>कृषकों को वैश्विक बाजारों तक पहुंचने में मदद करना ताकि उनके व्यापार के अवसर बढ़ सकें।</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Enhanced Footer -->
-    <footer class="footer">
-        <div class="container">
-            <!-- About AGRI-CURE -->
-            <div class="footer-section about">
-                <h3>About AGRICURE</h3>
-                <p>AGRICURE is dedicated to empowering farmers with sustainable solutions, promoting agroecological practices, and enhancing rural livelihoods through innovative training and networking opportunities.</p>
-            </div>
-
-            <!-- Quick Links -->
-            <div class="footer-section quick-links">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                </ul>
-            </div>
-
-            <!-- Contact Information -->
-            <div class="footer-section contact-info">
-                <h3>Contact Us</h3>
-                <p>Office Tel: <a href="tel:+254202108300">+254 20 210 8300</a><br>
-                Email: <a href="mailto:info@accessagriculture.org">info@accessagriculture.org</a></p>
-            </div>
-
-            <!-- Follow Us -->
-            <div class="footer-section follow-us">
-                <h3>Follow Us</h3>
-                <div class="social-icons">
-                    <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-                    <a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
-                    <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-                    <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-                </div>
-            </div>
-
-            <!-- Newsletter Subscription -->
-            <!-- <div class="footer-section newsletter">
-                <h3>Stay Connected</h3>
-                <form class="d-flex justify-content-center" action="#" method="post">
-                    <input type="email" placeholder="Enter your email" required>
-                    <button type="submit">Subscribe</button>
-                </form>
-            </div>
-        </div> -->
-
-        <div class="footer-bottom">
-            <p>&copy; 2024 AGRICURE. All rights reserved.</p>
+<!-- उन्नत फुटर -->
+<footer class="footer">
+    <div class="container">
+        <!-- AGRI-CURE के बारे में -->
+        <div class="footer-section about">
+            <h3>AGRICURE के बारे में</h3>
+            <p>AGRICURE का लक्ष्य कृषकों को स्थायी समाधान प्रदान करना, कृषि-पर्यावरणीय प्रथाओं को बढ़ावा देना और नवाचारी प्रशिक्षण एवं नेटवर्किंग अवसरों के माध्यम से ग्रामीण जीवन स्तर को बढ़ाना है।</p>
         </div>
-    </footer>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-mQ93fEvH9tv6McL3qNyeR3M4LrC25G6CJJh80y1BrLhZ3EZKxgSB9PZp1pAriF7k" crossorigin="anonymous"></script>
-	
-    <!-- AOS Library for Animations -->
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>
-        // Initialize AOS
-        AOS.init({
-            duration: 1000, // Animation duration
-            once: true, // Whether animation should happen only once
-        });
+        <!-- त्वरित लिंक -->
+        <div class="footer-section quick-links">
+            <h3>त्वरित लिंक</h3>
+            <ul>
+                <li><a href="#">गोपनीयता नीति</a></li>
+                <li><a href="#">सेवा की शर्तें</a></li>
+            </ul>
+        </div>
 
-        // Navbar background change on scroll
-        window.addEventListener('scroll', function() {
-            const navbar = document.querySelector('.navbar-section');
-            if (window.scrollY > 50) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
-        });
-    </script>
+        <!-- संपर्क जानकारी -->
+        <div class="footer-section contact-info">
+            <h3>संपर्क करें</h3>
+            <p>कार्यालय टेल: <a href="tel:+254202108300">+91 8954069933</a><br>
+            ईमेल: <a href="devpandey3134@gmail.com">devpandey3134@gmail.com</a></p>
+        </div>
+
+        <!-- हमें फॉलो करें -->
+        <div class="footer-section follow-us">
+            <h3>हमें फॉलो करें</h3>
+            <div class="social-icons">
+                <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+
+        <!-- न्यूज़लेटर सदस्यता -->
+        <!-- <div class="footer-section newsletter">
+            <h3>जुड़े रहें</h3>
+            <form class="d-flex justify-content-center" action="#" method="post">
+                <input type="email" placeholder="अपना ईमेल दर्ज करें" required>
+                <button type="submit">सदस्यता लें</button>
+            </form>
+        </div>
+    </div> -->
+
+    <div class="footer-bottom">
+        <p>&copy; 2024 AGRICURE. सर्वाधिकार सुरक्षित।</p>
+    </div>
+</footer>
+
+<!-- जावास्क्रिप्ट पुस्तकालय -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-mQ93fEvH9tv6McL3qNyeR3M4LrC25G6CJJh80y1BrLhZ3EZKxgSB9PZp1pAriF7k" crossorigin="anonymous"></script>
+
+<!-- एनिमेशन के लिए AOS पुस्तकालय -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    // AOS प्रारंभ करें
+    AOS.init({
+        duration: 1000, // एनिमेशन की अवधि
+        once: true, // क्या एनिमेशन केवल एक बार होना चाहिए
+    });
+
+    // स्क्रॉल करने पर नेवबार का बैकग्राउंड बदलें
+    window.addEventListener('scroll', function() {
+        const navbar = document.querySelector('.navbar-section');
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    });
+</script>
 </body>
 </html>

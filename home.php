@@ -34,7 +34,7 @@ if (!isset($_SESSION['username'])) {
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <p style="font-size: 32px; font-weight: bold; color: #4CAF50; border: 2px solid #4CAF50; padding: 5px; display: inline;">
-                    AGRI--CURE
+                    AGRICURE
                 </p>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -435,7 +435,7 @@ if (!isset($_SESSION['username'])) {
             <div class="row">
                 <div class="col-lg-3 col-md-12 col-sm-12">
                     <p class="logo" style="font-size: 28px; font-weight: bold; margin: 0; animation: fadeIn 1s;color: #4CAF50;">
-                     AGRI--CURE
+                     AGRICURE
                     </p>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
@@ -455,7 +455,7 @@ if (!isset($_SESSION['username'])) {
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-12 col-sm-12">
-                    <p style="text-align: center; margin: 0; animation: fadeIn 1s;">&copy; 2024 AGRI--CURE</p>
+                    <p style="text-align: center; margin: 0; animation: fadeIn 1s;">&copy; 2024 AGRICURE</p>
                 </div>
                 <div class="col-lg-1 col-md-12 col-sm-12">
                     <a href="#" class="back-to-top d-flex align-items-center justify-content-center" style="color: #ecf0f1; font-size: 24px; transition: transform 0.3s;">
